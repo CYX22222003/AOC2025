@@ -4,6 +4,8 @@
 #include <vector>
 #include <sstream>
 
+// Utilities to process text files
+
 inline std::vector<std::string> read_lines(const std::string& path) {
     std::ifstream in(path);
     std::vector<std::string> lines;

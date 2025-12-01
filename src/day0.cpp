@@ -2,7 +2,7 @@
 #include "utils.hpp"
 
 using namespace std;
-
+// This file is for testing utilities.
 int main() {
     auto lines = read_lines("inputs/day0.txt");
 
