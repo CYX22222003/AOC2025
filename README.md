@@ -7,3 +7,7 @@ Rounding in C++ division is tricky hahaha &#x1F605;. Takes me some time to figur
 ## Day 2
 
 Backreference in regular expression
+
+## Day 3
+
+Use fixed-length monotonic stack to find the lexicographically maximum subarray of size 12
