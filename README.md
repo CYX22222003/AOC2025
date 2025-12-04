@@ -14,4 +14,4 @@ Use fixed-length monotonic stack to find the lexicographically maximum subarray 
 
 ## Day 4
 
-Standard matrix processing
+Standard matrix processing. Can be done asymptotic better using graph methods. But given the size of the input (about 200 $\times$ 200), the brute force LGTM.
