@@ -3,6 +3,7 @@
 #include <string>
 #include <vector>
 #include <sstream>
+#include <iostream>
 
 // Utilities to process text files
 
@@ -38,4 +39,13 @@ inline std::string trim(const std::string& s) {
     size_t end   = s.find_last_not_of(" \t\r\n");
     if (start == std::string::npos) return "";
     return s.substr(start, end - start + 1);
+}
+
+template <typename T>
+void display_list(std::vector<T> arr) {
+    int n = arr.size();
+    for (int i = 0; i < n; i++) {
+        std::cout << arr[i] << " ";
+    }
+    std::cout << std::endl;
 }

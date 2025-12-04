@@ -11,3 +11,7 @@ Backreference in regular expression
 ## Day 3
 
 Use fixed-length monotonic stack to find the lexicographically maximum subarray of size 12
+
+## Day 4
+
+Standard matrix processing
