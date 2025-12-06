@@ -8,8 +8,6 @@
 #include <climits>
 using namespace std;
 
-
-
 class Interval {
     private:
     long long l, r;

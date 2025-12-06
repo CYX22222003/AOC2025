@@ -23,3 +23,8 @@ Today's question is more interesting.
 Solution to the first puzzle is inspired by my TA Devansh's note on data structure and algorithm: https://notes.devanshshah.dev/notes/modules/data-structures-and-algorithms/algorithms/interval-search
 
 Solution to the second puzzle is inspired by the Leetcode question: https://leetcode.com/problems/merge-intervals/
+
+
+## Day 6
+
+Treat vector of string as a matrix of character and do the transposition.

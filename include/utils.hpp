@@ -49,3 +49,12 @@ void display_list(std::vector<T> arr) {
     }
     std::cout << std::endl;
 }
+
+void printCharLiteral(char ch) {
+    switch (ch) {
+        case '\n': std::cout << "\\n"; break;
+        case '\t': std::cout << "\\t"; break;
+        case '\\': std::cout << "\\\\"; break;
+        default:   std::cout << ch; break;
+    }
+}
