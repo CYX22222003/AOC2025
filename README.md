@@ -28,3 +28,7 @@ Solution to the second puzzle is inspired by the Leetcode question: https://leet
 ## Day 6
 
 Treat vector of string as a matrix of character and do the transposition.
+
+## Day 7
+
+This appears to have a similar pattern to the Pascal Triangle.
