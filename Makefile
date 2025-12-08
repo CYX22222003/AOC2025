@@ -9,7 +9,7 @@ LLVM = $(patsubst src/%.cpp, ll/%.ll, $(SRC))
 
 .PHONY: clean check
 
-all: $(BIN)
+all: $(BIN) $(AS) $(LLVM)
 
 assembly: $(AS)
 
