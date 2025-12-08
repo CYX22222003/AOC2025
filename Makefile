@@ -1,6 +1,6 @@
 CXX = g++
 CLANG = clang
-CXXFLAGS = -std=c++20 -O2 -Wall -Wextra -Iinclude
+CXXFLAGS = -std=c++20 -O3 -Wall -Wextra -Iinclude
 
 SRC = $(wildcard src/*.cpp)
 BIN = $(patsubst src/%.cpp,bin/%,$(SRC))

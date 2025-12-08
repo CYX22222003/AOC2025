@@ -149,7 +149,7 @@ void soln1() {
     auto topClosest = findTopClosest(junctions, limit);
     auto uf = union_junctions(junctions.size(), topClosest);
     result = multiplyTop3Sizes(uf);
-    cout << "Product of top 3 largest components: " << result << endl;
+    cout << result << endl;
 }
 
 void soln2() {
