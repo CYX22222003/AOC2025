@@ -36,3 +36,10 @@ This appears to have a similar pattern to the Pascal Triangle.
 ## Day 8
 
 Use Priority Queue to find the top K smallest distance between junctions.Then apply the Kruskal algorithm using Union Find Disjoint Set. 
+
+## Day 9
+
+Solved using ray-casting algorithms: https://rosettacode.org/wiki/Ray-casting_algorithm. Brute force to check all the rectangles and use multithreading to improve efficiency.
+
+Elapsed (wall clock) time (h:mm:ss or m:ss): 5:29.58
+Maximum resident set size (kbytes): 259644
