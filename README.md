@@ -41,5 +41,10 @@ Use Priority Queue to find the top K smallest distance between junctions.Then ap
 
 Solved using ray-casting algorithms: https://rosettacode.org/wiki/Ray-casting_algorithm. Brute force to check all the rectangles and use multithreading to improve efficiency.
 
-Elapsed (wall clock) time (h:mm:ss or m:ss): 5:29.58
-Maximum resident set size (kbytes): 259644
+Runtime resource usage:
+
+- User time (seconds): 2660.78
+- System time (seconds): 0.49
+- Percent of CPU this job got: 820%
+- Elapsed (wall clock) time (h:mm:ss or m:ss): 5:24.31
+- Maximum resident set size (kbytes): 259872
